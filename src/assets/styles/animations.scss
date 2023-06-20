@@ -1,0 +1,28 @@
+@keyframes animatesvg {
+    to {
+        transform: translate(-50%, -10px);
+    }
+}
+
+@keyframes upanddown {
+    to {
+        transform: translateY(-5px);
+    }
+}
+@keyframes bounce {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes updown {
+    to {
+        transform: translateY(-10px);
+    }
+}
